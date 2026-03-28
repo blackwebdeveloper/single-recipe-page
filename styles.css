@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+body {
+    background: hsl(30, 54%, 90%);
+}
+
+main {
+    margin-top: 5em;
+    margin-bottom: 5em;
+    max-width: 100%;
+    
+}
+
+article {
+    background: hsl(0, 0%, 100%);
+    max-width: 100%;
+    margin-left: 15em;
+    margin-right: 15em;
+    border-radius: 25px;
+}
+
+header .img {
+    display: flex;
+    justify-content: center;
+    padding-top: 1em;
+}
+
+img {
+    border-radius: 25px;
+    max-width: 90%;
+}
+
+h1 {
+    padding-left: 1.2em;
+    padding-right: 2em;
+}
+
+.description p {
+    padding-left: 2em;
+    padding-right: 2em;
+    font-family: "Outfit";
+
+}
+
+.prep_time {
+    background: hsl(330, 100%, 98%);
+    margin-left: 2em;
+    margin-right: 2em;
+    padding: 1em;
+    border-radius: 15px;
+}
+
+.pink_prep-time {
+    color: hsl(332, 51%, 32%);
+    font-family: "Outfit";
+    font-weight: 700;
+}
+
+.prep_time div ul li{
+    font-family: "Outfit";
+    color: hsl(332, 51%, 32%);
+
+}
+
+.time_prep {
+    color: hsl(30, 10%, 34%);
+}
+
+.ingredients {
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.ingredients div div h2 {
+    color: hsl(14, 45%, 36%);
+    font-family: "Young Serif";
+}
+
+.ingredients div {
+    color: hsl(14, 45%, 36%);
+    font-family: "Outfit";
+
+}
+
+.color_dark {
+    color: hsl(30, 10%, 34%);
+}
+
+.instructions {
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.instructions div div h2 {
+    color: hsl(14, 45%, 36%);
+    font-family: "Young Serif";
+}
+
+
+.instructions div {
+    color: hsl(14, 45%, 36%);
+    font-family: "Outfit";
+    font-weight: 700;
+}
+
+
+.bold_color {
+font-weight: bold;
+color: hsl(30, 10%, 34%);
+}
+
+.weigth_color_small {
+    font-weight: lighter;
+    color: hsl(30, 10%, 34%);
+}
+
+.nutrition {
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 2em;
+    color: hsl(30, 10%, 34%);
+    font-family: "Outfit";
+    max-width: 100%;
+
+}
+
+.h1 {
+    color: hsl(12, 4%, 26%);
+    font-family: "Young Serif";
+}
+
+.nutrition div div h2 {
+    color: hsl(14, 45%, 36%);
+    font-family: "Young Serif";
+}
+
+.nutrition p {
+    font-family: "Outfit";
+    color: hsl(30, 10%, 34%);
+
+}
+
+
+.table_span {
+    font-weight: 600;
+    color: hsl(14, 45%, 36%);
+    padding-left: 15em;
+}
+
+
+table {
+    border-collapse: separate; 
+    border-spacing: 10px 5px; /* Horizontal spacing | Vertical spacing */
+    
+}
+
+
+
+table {
+    width: 100%;
+    border-collapse: collapse; /* Essential for a solid line */
+  }
+  
+  th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd; /* The horizontal line */
+  }
