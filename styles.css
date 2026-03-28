@@ -40,7 +40,7 @@ h1 {
     padding-left: 2em;
     padding-right: 2em;
     font-family: "Outfit";
-
+    color: hsl(30, 10%, 34%);
 }
 
 .prep_time {
